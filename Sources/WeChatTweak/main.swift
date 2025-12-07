@@ -108,7 +108,7 @@ struct Tweak: AsyncParsableCommand {
         ]
     )
 
-    static let config = URL(string:"https://raw.githubusercontent.com/sunnyyoung/WeChatTweak/refs/heads/feature/2.0/config.json")!
+    static let config = URL(string:"https://raw.githubusercontent.com/sunnyyoung/WeChatTweak/refs/heads/master/config.json")!
 
     mutating func run() async throws {
         print(Tweak.helpMessage())
